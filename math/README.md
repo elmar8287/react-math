@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Author
+
+👤 **Elmar Abdulkarimov**
+
+- GitHub: [@elmar8287](https://github.com/https://github.com/elmar8287/react-math)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+The project personalized for my  purposes. See the MIT.md file
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
 ## Available Scripts
 
 In the project directory, you can run:
