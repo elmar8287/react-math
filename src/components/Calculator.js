@@ -23,7 +23,7 @@ const Calculator = () => {
         <button type="button" class="orange">+</button>
         <button type="button" class="zero">0</button>
         <button type="button">.</button>
-        <button type="button" class="orange">=</button>
+        <button type="button" className="orange">=</button>
       </section>
     </div>
   );
