@@ -4,13 +4,13 @@
 }
 
 .buttons {
-  border: solid rgb(158, 158, 158);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  border: none;
 }
 
 .calculator {
-  width: 40%;
+  width: 25%;
   background-color: rgb(158, 158, 158);
 }
 
@@ -45,4 +45,6 @@ button:hover {
 
 .orange {
   background-color: orange;
+  border: solid gray;
+  border-width: 1px;
 }
