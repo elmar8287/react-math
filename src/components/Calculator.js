@@ -1,3 +1,5 @@
+/*eslint arrow-body-style: ["error", "always"]*/
+
 import React from 'react';
 
 const Calculator = () => {
