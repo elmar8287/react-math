@@ -26,7 +26,7 @@ class Calculator extends Component {
           <button type="button" className="orange">+</button>
           <button type="button" className="zero">0</button>
           <button type="button">.</button>
-          <button type="button" classNameName="orange">=</button>
+          <button type="button" className="orange">=</button>
         </section>
       </div>
     );
