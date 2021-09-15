@@ -2,9 +2,9 @@ import React from 'react';
 
 const Calculator = () => {
   return (
-    <div>
+    <div class="calculator">
       <span>Result</span>
-      <section>
+      <section class="buttons">
         <button type="button">AC</button>
         <button type="button">+/-</button>
         <button type="button">%</button>
@@ -24,7 +24,6 @@ const Calculator = () => {
         <button type="button">0</button>
         <button type="button">.</button>
         <button type="button">=</button>
-        <button type="button">0</button>
       </section>
     </div>
   );
