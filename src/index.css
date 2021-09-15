@@ -17,18 +17,15 @@
   padding: 5px;
 }
 
-.calculator input   {
-  background: none;
-  border: none;
-  box-shadow: none;
-  outline: none;
-  padding: 10px;
-  width: 100%;
-  border-bottom: 2px solid #111;
+.calculator input {
+  background-color: rgb(215, 215, 215);
+  padding: 5px;
+  margin: 5px;
+  width: 95%;
   color: #333;
   text-align: right;
-  font-size: 40px;
-  border-radius: 0;
+  font-size: 30px;
+  border-radius: 5px;
 }
 
 button {
