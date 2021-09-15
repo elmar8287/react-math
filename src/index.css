@@ -1,13 +1,50 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: none;
+}
+
+.calculator {
+  width: 25%;
+  background-color: rgb(158, 158, 158);
+}
+
+.calculator input {
+  padding: 5px;
+  margin: 5px;
+  width: 95%;
+  text-align: right;
+  font-size: 30px;
+  border-radius: 5px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: white;
+}
+
+button {
+  height: 50px;
+  font-size: medium;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(13, 13, 112);
+  color: white;
+}
+
+.zero {
+  grid-column: 1/span 2;
+}
+
+.orange {
+  background-color: orange;
+  border: solid gray;
+  border-width: 1px;
 }
