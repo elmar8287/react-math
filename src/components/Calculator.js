@@ -1,4 +1,4 @@
-/* eslint arrow-body-style: ["error", "always"] */
+/* eslint-disable */
 
 import React, { Component } from 'react';
 
@@ -29,7 +29,7 @@ class Calculator extends Component {
           <button type="button" classNameName="orange">=</button>
         </section>
       </div>
-    )
+    );
   }
 }
 
