@@ -3,7 +3,7 @@ import React from 'react';
 const Calculator = () => {
   return (
     <div class="calculator">
-      <span>Result</span>
+      <input type="number" />
       <section class="buttons">
         <button type="button">AC</button>
         <button type="button">+/-</button>

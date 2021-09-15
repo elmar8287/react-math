@@ -17,6 +17,20 @@
   padding: 5px;
 }
 
+.calculator input   {
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 2px solid #111;
+  color: #333;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 0;
+}
+
 button {
   height: 50px;
   font-size: medium;
