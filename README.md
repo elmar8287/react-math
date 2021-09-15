@@ -11,8 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Getting Started
 
 ## Setup
-git clone https://github.com/usmansbk/math-magicians.git
-cd ./math-magicians
+git clone https://github.com/elmar8287/react-math.git
+cd ./react-math
 
 ## Install
 npm install
@@ -30,7 +30,7 @@ npm test
 
 👤 **Elmar Abdulkarimov**
 
-- GitHub: [@elmar8287](https://github.com/https://github.com/elmar8287/react-math)
+- GitHub: [@elmar8287](https://github.com/elmar8287)
 
 
 ## 🤝 Contributing
