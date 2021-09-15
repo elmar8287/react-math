@@ -5,6 +5,23 @@ import calculate from '../logic/calculate';
 import operate from '../logic/operate';
 
 class Calculator extends Component {
+  constructor(props) {
+    super();
+    this.state = {obj:{
+      total: null,
+      next: null,
+      operation: null,
+    },
+    result: '',  
+    }
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e){
+    const result = calculate(this.state.obj, e.target.name, operate);
+    this.setState({obj: {...this.state.obj, ...result}});
+  }
+  
   render() {
     return (
       <div className="calculator">
