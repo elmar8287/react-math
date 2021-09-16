@@ -7,7 +7,6 @@ class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {};
-    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = (buttonName) => {
@@ -29,9 +28,9 @@ class Calculator extends Component {
         </div>
         <section className="buttons">
           <button type="button" name="AC" onClick={(ev) => this.handleClick(ev.target.name)}>AC</button>
-          <button type="button" name="+" onClick={(ev) => this.handleClick(ev.target.name)}>+/-</button>
+          <button type="button" name="+/-" onClick={(ev) => this.handleClick(ev.target.name)}>+/-</button>
           <button type="button" name="%" onClick={(ev) => this.handleClick(ev.target.name)}>%</button>
-          <button type="button" name="&#247" className="orange" onClick={(ev) => this.handleClick(ev.target.name)}>&#247;</button>
+          <button type="button" name="&#247;" className="orange" onClick={(ev) => this.handleClick(ev.target.name)}>&#247;</button>
           <button type="button" name="7" onClick={(ev) => this.handleClick(ev.target.name)}>7</button>
           <button type="button" name="8" onClick={(ev) => this.handleClick(ev.target.name)}>8</button>
           <button type="button" name="9" onClick={(ev) => this.handleClick(ev.target.name)}>9</button>
@@ -39,7 +38,7 @@ class Calculator extends Component {
           <button type="button" name="4" onClick={(ev) => this.handleClick(ev.target.name)}>4</button>
           <button type="button" name="5" onClick={(ev) => this.handleClick(ev.target.name)}>5</button>
           <button type="button" name="6" onClick={(ev) => this.handleClick(ev.target.name)}>6</button>
-          <button type="button" name="-" className="orange">-</button>
+          <button type="button" name="-" className="orange" onClick={(ev) => this.handleClick(ev.target.name)}>-</button>
           <button type="button" name="1" onClick={(ev) => this.handleClick(ev.target.name)}>1</button>
           <button type="button" name="2" onClick={(ev) => this.handleClick(ev.target.name)}>2</button>
           <button type="button" name="3" onClick={(ev) => this.handleClick(ev.target.name)}>3</button>
