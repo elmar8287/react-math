@@ -24,13 +24,15 @@ class Calculator extends Component {
   render() {
     return (
       <div className="calculator">
-        <input type="number" />
+        <div className="number">
+          <p>{this.showSolution()}</p>
+        </div>
         <section className="buttons">
-          <button type="button" onClick={(ev) => this.handleClick(ev.target.name)}>AC</button>
+          <button type="button" name="AC" onClick={(ev) => this.handleClick(ev.target.name)}>AC</button>
           <button type="button" onClick={(ev) => this.handleClick(ev.target.name)}>+/-</button>
           <button type="button" onClick={(ev) => this.handleClick(ev.target.name)}>%</button>
           <button type="button" className="orange" onClick={(ev) => this.handleClick(ev.target.name)}>&#247;</button>
-          <button type="button" onClick={(ev) => this.handleClick(ev.target.name)}>7</button>
+          <button type="button" name="7" onClick={(ev) => this.handleClick(ev.target.name)}>7</button>
           <button type="button" onClick={(ev) => this.handleClick(ev.target.name)}>8</button>
           <button type="button" onClick={(ev) => this.handleClick(ev.target.name)}>9</button>
           <button type="button" className="orange" onClick={(ev) => this.handleClick(ev.target.name)}>x</button>

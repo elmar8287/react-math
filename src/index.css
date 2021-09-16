@@ -14,20 +14,6 @@
   background-color: rgb(158, 158, 158);
 }
 
-.calculator input {
-  padding: 5px;
-  margin: 5px;
-  width: 95%;
-  text-align: right;
-  font-size: 30px;
-  border-radius: 5px;
-  background: none;
-  border: none;
-  box-shadow: none;
-  outline: none;
-  color: white;
-}
-
 button {
   height: 50px;
   font-size: medium;
@@ -47,4 +33,18 @@ button:hover {
   background-color: orange;
   border: solid gray;
   border-width: 1px;
+}
+
+.number {
+  padding: 5px;
+  margin: 5px;
+  width: 95%;
+  text-align: right;
+  font-size: 30px;
+  border-radius: 5px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: white;
 }
