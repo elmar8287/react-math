@@ -1,5 +1,5 @@
 <!-- # Getting Started with Create React App -->
-# Components: add Calculator.js 
+# Math magicians - Calculator 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -7,6 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Built With
 - ReactJS
+- JS 
+- CSS
+- Node.js 
 
 # Getting Started
 
