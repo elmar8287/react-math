@@ -30,9 +30,6 @@ const Navbar = () => {
               <li key={link.id}>
                 <NavLink
                   to={link.path}
-                  activeClassName="active"
-                  className="nav-href"
-                  exact
                 >
                   {link.text}
                 </NavLink>

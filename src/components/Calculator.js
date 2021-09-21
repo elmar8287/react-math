@@ -13,6 +13,7 @@ const Calculator = () => {
   const showResult = (total || '') + (operation || '') + (next || '');
   
   return (
+    
     <div className="calculator">
       <div className="number">
         <p>{showResult || '0'}</p>

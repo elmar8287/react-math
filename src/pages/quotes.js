@@ -1,12 +1,17 @@
 import React from 'react';
 
-const quotes = { margin: 20% }
+
+const myStyle = {
+  color: 'black',
+  margin: "30px",
+
+};
 
 const Quotes = () => (
-  <blockquote style={ quotes }>
+  <p style={ myStyle }>
     Mathematics is not about numbers, equotions, computations, or algorithms: it is about 
     understanding. ~William Paul Thurston
-  </blockquote>
+  </p>
 );
 
 export default Quotes;

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .buttons {
@@ -12,6 +13,7 @@
 .calculator {
   width: 25%;
   background-color: rgb(158, 158, 158);
+  margin-left: 100px;
 }
 
 button {
@@ -47,4 +49,62 @@ button:hover {
   box-shadow: none;
   outline: none;
   color: white;
+}
+
+header {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(218, 218, 218);
+  height: 100px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color:rgb(170, 77, 77);
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  color:rgb(170, 77, 77);
+  font-size: 50px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.welcome {
+  margin: 50px;
+}
+
+.welcome h2 {
+  margin-bottom: 30px;
+}
+
+.welcome p {
+  margin-bottom: 20px;
 }
