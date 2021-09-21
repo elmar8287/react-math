@@ -2,7 +2,7 @@
 # Math magicians - Simple-Page Application 
 
 ## This is SPA project built in React. The web-site consist 3 pages: Home, Calculator and Quote. For styling of a project used `React basic styling`, and for navigation used `React Router`.
-## [Live demo](https://github.com/facebook/create-react-app).
+## [Live demo](https://elmar8287.github.io/react-math/).
 
 ![Screen Shot](./src/screen_shot.PNG)
 
