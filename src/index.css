@@ -71,7 +71,7 @@ a {
 }
 
 a:active {
-  color:rgb(170, 77, 77);
+  color: rgb(170, 77, 77);
 }
 
 a:hover {
@@ -82,7 +82,7 @@ a:hover {
 }
 
 h1 {
-  color:rgb(170, 77, 77);
+  color: rgb(170, 77, 77);
   font-size: 50px;
 }
 
