@@ -1,2 +1,0 @@
-*{margin:0;padding:0}.buttons{display:grid;grid-template-columns:repeat(4,1fr);border:none}.calculator{width:25%;background-color:#9e9e9e}button{height:50px;font-size:medium}button:hover{cursor:pointer;background-color:#0d0d70;color:#fff}.zero{grid-column:1/span 2}.orange{background-color:orange;border:1px solid grey}.number{padding:5px;margin:5px;width:95%;text-align:right;font-size:30px;border-radius:5px;background:none;border:none;box-shadow:none;outline:none;color:#fff}
-/*# sourceMappingURL=main.fbb17896.chunk.css.map */
